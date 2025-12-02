@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Jain | Cloud & DevOps Engineer</title>
+    <meta name="description" content="Portfolio of Akshay Jain, a Cloud & DevOps Engineer specializing in Azure, Terraform, and Kubernetes.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Placeholder for FontAwesome, user might need to replace or I can use SVG icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    
+    <header>
+        <nav class="container">
+            <div class="logo">&lt;AkshayJain /&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#about">_about</a></li>
+                <li><a href="#skills">_skills</a></li>
+                <li><a href="#experience">_experience</a></li>
+                <li><a href="#contact">_contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="terminal-prompt"><span class="user">root@akshay</span>:<span class="path">~</span>$ ./init_portfolio.sh</p>
+                    <h1>Hello, I'm <span class="highlight">Akshay Jain</span>.</h1>
+                    <h2 class="typing-effect">Cloud & DevOps Engineer</h2>
+                    <p class="hero-sub">Specializing in Azure, Terraform, and Kubernetes automation.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary-btn">Contact Me</a>
+                        <a href="#experience" class="btn secondary-btn">View Work</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- Abstract code/cloud visual can go here -->
+                    <div class="code-block">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code>
+<span class="keyword">resource</span> <span class="string">"azurerm_resource_group"</span> <span class="variable">"portfolio"</span> {
+  <span class="property">name</span>     = <span class="string">"akshay-portfolio-rg"</span>
+  <span class="property">location</span> = <span class="string">"East US"</span>
+}
+
+<span class="comment"># Deploying scalable infrastructure...</span>
+<span class="function">module</span> <span class="variable">"aks_cluster"</span> {
+  <span class="property">source</span> = <span class="string">"./modules/aks"</span>
+  <span class="property">node_count</span> = <span class="number">3</span>
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="hash">#</span> About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            DevOps Engineer experienced in <strong>IaC using Terraform</strong> to provision and manage Azure IaaS and PaaS. 
+                            Skilled in <strong>CI/CD automation</strong>, cloud cost optimization, multi-cloud migrations (Azure, AWS, GCP), 
+                            and Kubernetes-based application delivery.
+                        </p>
+                        <p>
+                            I have a strong background in designing modular infrastructure, automating pipelines, and ensuring high availability 
+                            for enterprise applications.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>10+</h3>
+                            <p>Projects Delivered</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>2</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="hash">#</span> Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Cloud -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                        <div class="tags">
+                            <span class="tag">Azure</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">GCP</span>
+                        </div>
+                    </div>
+                    <!-- DevOps Tools -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cogs"></i> DevOps & CI/CD</h3>
+                        <div class="tags">
+                            <span class="tag">Azure DevOps</span>
+                            <span class="tag">Jenkins</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Artifactory</span>
+                        </div>
+                    </div>
+                    <!-- IaC & Config -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> IaC & Config Mgmt</h3>
+                        <div class="tags">
+                            <span class="tag">Terraform</span>
+                            <span class="tag">Ansible</span>
+                            <span class="tag">ARM Templates</span>
+                        </div>
+                    </div>
+                    <!-- Containers -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-box-open"></i> Containers</h3>
+                        <div class="tags">
+                            <span class="tag">Kubernetes (AKS)</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                    <!-- Scripting -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-terminal"></i> Scripting</h3>
+                        <div class="tags">
+                            <span class="tag">Bash</span>
+                            <span class="tag">PowerShell</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="hash">#</span> Work History</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Oct 2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3>DevOps Engineer</h3>
+                            <h4>Neudesic An IBM Company</h4>
+                            <ul>
+                                <li>Designed and deployed modular Azure and GCP IaaS/PaaS infrastructure using Terraform.</li>
+                                <li>Automated CI/CD pipelines in Azure DevOps to provision resources and deploy applications.</li>
+                                <li>Streamlined deployment of enterprise applications on the ACP platform with monitoring and security.</li>
+                                <li>Developed reusable Terraform modules to standardize Azure resource provisioning.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Mar 2021 - Oct 2024</div>
+                        <div class="timeline-content">
+                            <h3>Cloud & DevOps Engineer</h3>
+                            <h4>LTIMindtree</h4>
+                            <ul>
+                                <li>Provisioned Azure and GCP resources using Terraform and PowerShell.</li>
+                                <li>Managed AKS deployments with Docker, Jenkins CI/CD, ACR, and Python automation.</li>
+                                <li>Implemented monitoring and alerting to enhance platform reliability.</li>
+                                <li>Managed Azure cloud operations, including incident handling and RCA.</li>
+                                <li>Led successful migrations of diverse applications to Azure.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2020 - Feb 2021</div>
+                        <div class="timeline-content">
+                            <h3>Internship</h3>
+                            <h4>Worldsoft IT</h4>
+                            <ul>
+                                <li>Gained hands-on experience with deploying and managing Azure cloud services (VMs, storage, networking).</li>
+                                <li>Assisted in automating infrastructure provisioning using ARM templates and basic Terraform scripts.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="hash">#</span> Certifications & Education</h2>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cert-info">
+                            <h3>AZ-104</h3>
+                            <p>Microsoft Certified: Azure Administrator Associate</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cert-info">
+                            <h3>AI-900</h3>
+                            <p>Microsoft Certified: Azure AI Fundamentals</p>
+                        </div>
+                    </div>
+                    <div class="cert-card education">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="cert-info">
+                            <h3>Bachelor of Engineering - CS</h3>
+                            <p>R.G.P.V Technological University (2016 - 2020)</p>
+                            <small>GPA: 7.8 / 10</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="hash">#</span> Contact Me</h2>
+                <div class="contact-wrapper">
+                    <p>Interested in collaborating or hiring? Let's connect.</p>
+                    <div class="contact-links">
+                        <a href="mailto:jisuj197@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i> jisuj197@gmail.com</a>
+                        <a href="tel:+919826510372" class="contact-btn"><i class="fas fa-phone"></i> +91 98265 10372</a>
+                        <a href="https://linkedin.com/in/akshay-jain98" target="_blank" class="contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/akshay9826" target="_blank" class="contact-btn"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Akshay Jain. Built with <i class="fas fa-code"></i> & <i class="fas fa-coffee"></i>.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
